@@ -1,0 +1,66 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #49acda;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header h2 {
+    color: #666;
+    font-size: 1.2em;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+article header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+article header h2 {
+    color: #333;
+}
+
+article footer {
+    color: #2e46d1;
+    font-size: 0.9em;
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+article section p {
+    text-align: justify;
+}
+
+article section a {
+    color: #2b77c9;
+    text-decoration: none;
+}
+
+article section a:hover {
+    text-decoration: underline;
+}
